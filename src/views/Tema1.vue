@@ -7,7 +7,7 @@
         span 1
       h1 Mercado
     
-    .conatiner-100.mb-5(
+    .container-100.mb-5.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center;"
     )
@@ -231,8 +231,9 @@ export default {
   margin-left: auto
   position: relative
   @media (max-width: 991px)
-    margin-left: auto
+    margin-right: auto
     border-radius: 20px
+    margin-bottom: 1rem
 .container-tabsc-1
   display: flex
   align-items: center
