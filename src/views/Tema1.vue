@@ -24,13 +24,13 @@
       
       img(src="@/assets/curso/temas/tema1/img-2.svg")
 
-    p.mb-5 El fundamento del mercado es el intercambio, porque sin lugar a duda es una acción que vienen haciendo los seres humanos desde la antigüedad por necesidad.
+    p.mb-5 El fundamento del mercado es el intercambio, que es una acción que vienen haciendo los seres humanos desde la antigüedad por necesidad.
       br
       br
       |Existen 2 clases de intercambio:
     
     TabsC.color-secundario.mb-5
-      .py-3.py-md-4(titulo="Intercambio sin dinero. Trueque")
+      .py-3.py-md-4(titulo="Intercambio sin dinero (trueque)")
         .container-tabsc-1.col-xl-10.mx-auto
           p.order-2.order-lg-1.col-12.col-xl-10 Consiste en cambiar un bien por otro.
           img.order-1.order-lg-2(src='@/assets/curso/temas/tema1/img-3.svg' style="max-width: 267px; margin-left: -14rem")
@@ -80,11 +80,11 @@
         .tarjeta.tarjeta--azul-edit(style="background-color: #F1EEFC")
           .p-3
             h4 Factores de producción
-            p.mb-0 En este mercado se intercambian materias primas, capital y trabajo. En la cual los compradores o demandantes son las empresas que requieren de esto para poder elaborar los productos y los vendedores o oferentes son las personas o familias que los venden por dinero.
+            p.mb-0 En este mercado se intercambian materias primas, capital y trabajo. Los compradores o demandantes son las empresas que requieren de esto para poder elaborar los productos y los vendedores u oferentes son las personas o familias que los venden por dinero.
 
     h3.mb-4 Investigación de mercados (IM)
     p La investigación de mercados ha sido definida por varios exponentes, coincidiendo todos en un mismo objetivo: <span style="text-decoration: underline">la IM es el apoyo contundente de los directivos para la toma de decisiones.</span>
-    p <b><em>American Marketing Association</em></b> define la investigación de mercados como:
+    p <b>American Marketing Association</b> define la investigación de mercados como:
 
     .container-100.d-flex.flex-wrap.mb-5.align-items-center
       .col-lg-8.pe-lg-4
@@ -103,7 +103,7 @@
             .lista-ol--cuadro__vineta
               span(style="color: black; font-weight: bold") 2
             p Crear las alertas que sean necesarias para eludir el fracaso al comercializarlo. 
-        p Ambas razones se pueden resumir en una: <b>aminorar la incertidumbre en el momento de tomar decisiones.</b> 
+        p Ambas razones se pueden resumir en una: <b>aminorar la incertidumbre al momento de tomar decisiones.</b> 
       .col-lg-4.mx-auto
         img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 400px")
 
@@ -130,7 +130,7 @@
         .tarjeta.p-3(x="12%" y="27%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
           p.mb-0 <b>Encuesta:</b> se utilizan cuestionarios.
         .tarjeta.p-3(x="42%" y="27%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
-          p.mb-0 <b>Observación:</b> se basa en observar cómo actúan los sin tener interacción directa con ellos.
+          p.mb-0 <b>Observación:</b> se basa en observar cómo actúan sin tener interacción directa con ellos.
         .tarjeta.p-3(x="73%" y="27%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
           p.mb-0 <b>Experimento:</b> el investigador observa cómo puede afectar a cierta variable los cambios que realice en otras variables que la interfieran.
         .tarjeta.p-3(x="37%" y="43%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
@@ -139,13 +139,13 @@
         .tarjeta.p-3(x="20%" y="50%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
           p.mb-0 <b>Datos primarios:</b> se recogen directamente de la fuente original
         .tarjeta.p-3(x="64%" y="50%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
-          p.mb-0 <b>Datos secundarios:</b> se obtuvieron antes para otra idea y/o pueden haberse originado de varias fuentes como entidades gubernamentales o investigadores académicos, entre otras.
+          p.mb-0 <b>Datos secundarios:</b> se obtuvieron antes para otra idea o pueden haberse originado de varias fuentes como entidades gubernamentales o investigadores académicos, entre otras.
         .tarjeta.p-3(x="39%" y="66%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
           .h5.mb-2 4. Análisis de datos.
           p.mb-0 En este paso se analizan y comprenden cada uno de los datos obtenidos para obtener conclusiones.
         .tarjeta.p-3(x="36%" y="89.3%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
           p.mb-0 <b>5.Presentación de datos.</b> Aquí tanto las conclusiones como las recomendaciones se le presentan a las personas encargadas de la toma de decisiones.
-    p.mb-5 Como acabamos de estudiar, una encuesta es un método de reunir información, con la cual se interroga a varias personas con el propósito de obtener información real y directa como consumidores, para una investigación. Los pasos por seguir para el diseño de la encuesta son:
+    p.mb-5 Como se acaba de estudiar, una encuesta es un método de reunir información, con la cual se interroga a varias personas con el propósito de obtener información real y directa como consumidores, para una investigación. Los pasos por seguir para el diseño de la encuesta son:
 
     .container-100.d-flex.flex-wrap.mb-5.align-items-center
       .col-lg-7.pe-lg-4
@@ -196,7 +196,7 @@
             p En estas se realiza la pregunta y no se dan opciones de respuesta, se deja para que el encuestado responda abiertamente. Cabe aclarar que son poco utilizadas, porque al final las encuestas se deben cerrar y estandarizar.
         .row(titulo="Preguntas cerradas")
           .mb-4.mb-md-0
-            p También denominadas dicotómicas. En estas se realiza la pregunta y se dejan dos opciones de respuesta “Sí o No”. Aunque en ocasiones se deja una tercera opción de respuesta “no sabe/ no contesta”, esto en caso tal de que el encuestado no se acomode por cualquier motivo al si o al no. Solo se utilizan en temas puntuales que admiten solo esas dos opciones de respuesta.
+            p También denominadas dicotómicas. En estas se realiza la pregunta y se dejan dos opciones de respuesta “sí o no”. Aunque en ocasiones se deja una tercera opción de respuesta “no sabe / no responde”, esto en caso tal de que el encuestado no se acomode por cualquier motivo al sí o al no. Solo se utilizan en temas puntuales que admiten solo esas dos opciones de respuesta.
         .row(titulo="Preguntas cerradas con múltiples respuestas")
           .mb-4.mb-md-0
             p En estas se realiza la pregunta y se dan varias opciones de respuesta, dando al encuestado la oportunidad de escoger la que considere más oportuna.

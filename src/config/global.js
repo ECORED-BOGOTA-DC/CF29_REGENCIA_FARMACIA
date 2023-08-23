@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Merchandising en los servicios farmacéuticos',
+    componenteFormativo:
+      '<em>Merchandising</em> en los servicios farmacéuticos',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia lanzar la promoción comercial según objetivos y herramientas promocionales, con el propósito que los aprendices reconozcan las estrategias de mercadeo para la promoción y venta de productos farmacéuticos, teniendo presente la normatividad legal vigente, las políticas institucionales y las tecnologías disponibles.',
+      'En este componente formativo se abordan los conocimientos de la competencia "lanzar la promoción comercial según objetivos y herramientas promocionales", con el propósito de que los aprendices reconozcan las estrategias de mercadeo para la promoción y venta de productos farmacéuticos, teniendo presente la normatividad legal vigente, las políticas institucionales y las tecnologías disponibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -204,7 +205,7 @@ export default {
     {
       termino: 'INVIMA',
       significado:
-        'Instituto Nacional de Vigilancia de Medicamentos y Alimentos.',
+        ' Instituto Nacional de Vigilancia de Medicamentos y Alimentos.',
     },
     {
       termino: 'Mercadotecnia',
@@ -213,11 +214,11 @@ export default {
     },
     {
       termino: 'OMS',
-      significado: 'Organización Mundial de la Salud.',
+      significado: ' Organización Mundial de la Salud.',
     },
     {
       termino: 'OTC',
-      significado: 'Over the Counter (sobre el mostrador).',
+      significado: ' Over The Counter (sobre el mostrador).',
     },
     {
       termino: 'Tabulación',
@@ -236,12 +237,12 @@ export default {
         'GestioPolis.com Experto. (2021, mayo 11). Investigación de mercados. Qué es, importancia, tipos, beneficios.',
       link: 'https://www.gestiopolis.com/que-es-la-investigacion-de-mercados/',
     },
-    {
-      referencia:
-        'Palomares, R., (2011). <em>Merchandising</em> -Teoría, práctica y estrategia.',
-      link:
-        'https://corladancash.com/wp-content/uploads/2019/08/53-Merchandising_-Teoria-practica-Ricardo-Palomares-Borja.pdf',
-    },
+    // {
+    //   referencia:
+    //     'Palomares, R., (2011). <em>Merchandising</em> -Teoría, práctica y estrategia.',
+    //   link:
+    //     'https://corladancash.com/wp-content/uploads/2019/08/53-Merchandising_-Teoria-practica-Ricardo-Palomares-Borja.pdf',
+    // },
     {
       referencia: 'Prieto, J.E., (2009). Investigación de mercados.',
       link:
@@ -261,15 +262,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable de equipo',
+          centro: 'Dirección general',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -303,34 +304,52 @@ export default {
           cargo: 'Corrector de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital.',
         },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yazmín Rocío Figueroa Pacheco',
+          cargo: 'Diseño web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y Producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -338,22 +357,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

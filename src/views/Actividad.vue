@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Merchandising farmacéutico
+          h2 <em>Merchandising</em> farmacéutico
         p.mb-4 Abordar los conocimientos de la competencia lanzar la promoción comercial según objetivos y herramientas promocionales para reconocer estrategias de mercado
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

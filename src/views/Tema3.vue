@@ -14,7 +14,7 @@
     TabsC.color-secundario.mb-5
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Producto")
         .col-lg-6.order-2.order-lg-1.pe-lg-4
-          p.mb-4 Un producto es una mezcla de características tangibles como el color del empaque e intangibles como los beneficios que le pueda dar el producto y/o servicio que el cliente o consumidor considera puede complacer su necesidad. 
+          p.mb-4 Un producto es una mezcla de características tangibles, como el color del empaque, e intangibles, como los beneficios que le pueda dar el producto o servicio que el cliente o consumidor considera puede complacer su necesidad. 
             br
             br
             |Los productos tienen un ciclo de vida que se divide en cuatro fases:
@@ -30,7 +30,7 @@
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta(style="border-radius: 50%; font-size: 11px")
                 span(style="color: black; font-weight: bold") 3
-              p.mb-0 <b>Madurez:</b> aquí las ventas ya están estables, se minimizan los costos de producción y hay poco crecimiento en ventas. Esta esta a su vez se subdivide en madurez cíclica, que es cuando la venta de los productos es estacional (toallas higiénicas) y de madurez perpetua cuando la venta de los productos es constante y por mucho tiempo (analgésicos).
+              p.mb-0 <b>Madurez:</b> aquí las ventas ya están estables, se minimizan los costos de producción y hay poco crecimiento en ventas. Esta a su vez se subdivide en madurez cíclica, que es cuando la venta de los productos es estacional (toallas higiénicas) y de madurez perpetua cuando la venta de los productos es constante y por mucho tiempo (analgésicos).
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta(style="border-radius: 50%; font-size: 11px")
                 span(style="color: black; font-weight: bold") 5
@@ -38,7 +38,7 @@
         img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-1.svg" style="max-width: 561px")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Consumidor")
         .col-lg-6.order-2.order-lg-1.pe-lg-4
-          p El consumidor es eje fundamental de la empresa, ya que todas las actividades de están direccionadas a satisfacer las carencias del cliente. Se puede definir al consumidor como la o las personas que satisfacen una carencia primaria o secundaria por medio de la adquisición en el mercado de bienes o servicios.
+          p El consumidor es eje fundamental de la empresa, ya que todas las actividades de ésta están direccionadas a satisfacer las carencias del cliente. Se puede definir al consumidor como la o las personas que satisfacen una carencia primaria o secundaria por medio de la adquisición en el mercado de bienes o servicios.
           p Las necesidades o carencias de las personas según Abraham Maslow se dividen como se muestra en la pirámide.
           p.mb-4 La necesidad de salud esta dentro de la categoría de seguridad, por lo cual al consumidor o cliente de una farmacia o farmacia-droguería se le debe cumplir con los estándares de seguridad obligatorios, de manera que no solo se obedezca a la ética profesional del farmacéutico, sino que también el cliente se sienta motivado a comprar sus productos farmacéuticos en nuestro establecimiento.
           ol.order-2.order-lg-1.lista-ol--cuadro.lista-ol--separador
@@ -64,9 +64,9 @@
               p.mb-0 <b>Fisiología:</b> Respiración, alimentación, descanso, sexo, homeostasis.
         img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.my-lg-auto(src="@/assets/curso/temas/tema3/img-2.svg" style="max-width: 561px")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Factores")
-        .col-lg-6.order-2.order-lg-1.pe-lg-4
+        .col-lg-6.pe-lg-4
           p.mb-4 Es importante tener en cuenta que hay diferentes factores externos e internos que intervienen en el comportamiento de compra de un cliente, como son:
-        img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 561px")
+        img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 561px")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Proceso de administración")
         .col-lg-6.order-2.order-lg-1.pe-lg-4
           p.mb-4 El fin de este proceso es establecer cada uno de los pasos que se deben seguir en un programa de ventas, los cuales son:
@@ -87,16 +87,16 @@
     .tarjeta.p-4.mb-5(style="background-color: #E8EEFA")
       SlyderA.col-xl-11.mx-auto.py-4(tipo="b")
         .d-flex.flex-wrap
-          .col-lg-6.order-2.order-lg-1.pe-lg-4
+          .col-lg-6.pe-lg-4
             h3 Ambiente externo
             p.mb-4 Se sale de las manos de la empresa, ya que como su nombre lo dice son factores y situaciones que se dan fuera de esta. Este ambiente está integrado por: 
-          img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 551px")
+          img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 551px")
 
         .d-flex.flex-wrap
-          .col-lg-6.order-2.order-lg-1.pe-lg-4
+          .col-lg-6.pe-lg-4
             h3 Ambiente interno
             p.mb-4 Está completamente relacionado con factores y situaciones que se dan dentro de la empresa. Este ambiente está integrado por:
-          img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-6.svg" style="max-width: 551px")
+          img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-6.svg" style="max-width: 551px")
     p.mb-5 Y hacen parte de las técnicas de venta, los métodos de ventas y las fases de la venta, como observaremos a continuación.
 
     h3 Métodos de venta
@@ -109,7 +109,7 @@
           img(src='@/assets/curso/temas/tema3/img-7.svg')
 
       .tarjeta.p-3(x="35%" y="23.5%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
-        p.mb-0 Esta clase de venta no hay contacto físico entre el cliente y el vendedor. Hacen parte las ventas por teléfono, electrónicas ya sea por página web o WhatsApp, entre otras. Un ejemplo claro de estas ventas a nivel farmacéutico son las realizadas a domicilio.
+        p.mb-0 En esta clase de venta no hay contacto físico entre el cliente y el vendedor. Algunos ejemplos son las ventas por teléfono, electrónicas ya sea por página web o WhatsApp, entre otras. Un ejemplo claro de estas ventas a nivel farmacéutico son las realizadas a domicilio.
       .tarjeta.p-3(x="78%" y="23.5%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
         p.mb-0 En esta clase de venta hay contacto físico entre el cliente y el vendedor.
       .tarjeta.p-3(x="56%" y="41.5%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
@@ -117,11 +117,11 @@
       .tarjeta.p-3(x="100%" y="41.5%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
         p.mb-0 Fuera del establecimiento.
       .tarjeta.p-3(x="66%" y="58%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
-        p.mb-0 Esta es la siempre donde el cliente ingresa al establecimiento farmacéutico y no tiene a su alcance los productos, por lo cual lo obtiene a través del vendedor.
+        p.mb-0 Es aquella en la cual el cliente ingresa al establecimiento farmacéutico y no tiene a su alcance los productos, por lo cual los obtiene a través del vendedor.
       .tarjeta.p-3(x="66%" y="76%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
-        p.mb-0 Los productos están colocadas en estanterías, vitrinas centro del salón, colgadores, etc., con libre acceso para los clientes, quienes solicitan la atención del vendedor una vez que seleccionan los productos.
+        p.mb-0 Los productos están colocados en estanterías, vitrinas dentro del salón, colgadores, etc., con libre acceso para los clientes, quienes solicitan la atención del vendedor una vez que seleccionan los productos.
       .tarjeta.p-3(x="66%" y="95%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
-        p.mb-0 Es similar al anterior, pero en este caso el cliente posee mayor libertad, pues personalmente lleva los productos a la caja para que se la cobren.
+        p.mb-0 Es similar al anterior, pero en este caso el cliente tiene mayor libertad, pues personalmente lleva los productos a la caja para que se los cobren.
 
     .container-100.mb-5.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
@@ -147,28 +147,28 @@
             p.mb-0.ps-2 Capacidad para relacionarse.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
-            p.mb-0.ps-2 Ser perseverante.
+            p.mb-0.ps-2 Perseverancia.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
             p.mb-0.ps-2 Autoconfianza.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
-            p.mb-0.ps-2 Buen observador.
+            p.mb-0.ps-2 Observación.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
-            p.mb-0.ps-2 Excelente negociador.
+            p.mb-0.ps-2 Capacidad de negociar.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
-            p.mb-0.ps-2 Paciente.
+            p.mb-0.ps-2 Paciencia.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
-            p.mb-0.ps-2 Empático.
+            p.mb-0.ps-2 Empatía.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
             p.mb-0.ps-2 Excelente presentación personal.
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
-            p.mb-0.ps-2 Tolerante a la frustración.
+            p.mb-0.ps-2 Tolerancia a la frustración.
           
 
 </template>

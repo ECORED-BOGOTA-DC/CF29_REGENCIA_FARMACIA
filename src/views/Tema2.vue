@@ -15,7 +15,7 @@
             h3 El mercadeo estudia la forma en que las relaciones de intercambio son creadas, estimuladas, facilitadas, valoradas y gobernadas. La esencia del mercadeo está en la relación de intercambio, definida como conexión de recursos, personas, actividades orientadas hacia la creación e intercambio de valor para el mercado
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h6.mb-0 (Miguel Hernández Espallardo, 2001).
+            .h6.mb-0 Miguel Hernández Espallardo (2001).
       .col-lg-4.mx-auto
         img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 400px")
     p.mb-5 El núcleo del <em>marketing</em> es el consumidor, por ende, todo el empeño debe estar enfocado en este con:
@@ -49,10 +49,10 @@
       
       img(src="@/assets/curso/temas/tema2/img-3.svg")
     
-    p.mb-5 Dentro del mercadeo encontramos lo que se llama ambientes del mercadeo, que son el conjunto de fortalezas macros y micros que se localizan en el exterior de la empresa y que intervienen en la gestión gerencial al momento de fidelizar los clientes.
+    p.mb-5 Dentro del mercadeo encontramos lo que se llama ambientes del mercadeo, que son el conjunto de fortalezas macro y micro que se localizan en el exterior de la empresa y que intervienen en la gestión gerencial al momento de fidelizar los clientes.
       br
       br
-      |La siguiente tabla nos presenta cuáles son esas fortalezas.
+      |La siguiente tabla presenta cuáles son esas fortalezas.
 
     .col-lg-10.col-xl-8.mx-auto.mb-5
       .titulo-sexto.color-acento-botones.mb-4
@@ -100,7 +100,7 @@
             p.mb-0.ps-2 Destacar las ventajas del producto.
           li.d-flex.align-items-start
             img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
-            p.mb-0.ps-2 Favorecer las intervenciones de los representantes como vendedores, mercaderistas y/o impulsadoras.
+            p.mb-0.ps-2 Favorecer las intervenciones de los representantes como vendedores, mercaderistas o impulsadoras.
     
     .col-lg-10.mx-auto
       .cajon.color-secundario.p-4.mb-4(style="background-color: #E4DDFA")
@@ -123,7 +123,7 @@
     p.mb-5 La frase de Philip Kotler: <b>“la mejor publicidad es la que hacen los clientes satisfechos”</b> es más que cierta, porque una manera exitosa de vender productos y servicios es por el voz a voz de los clientes satisfechos.
       br
       br
-      |Es así como el propósito final de las técnicas de merchandising es argumentar e influenciar al público en todo momento, sin necesidad que esté presente el vendedor u otra persona llamando la atención de los consumidores.
+      |Es así como el propósito final de las técnicas de <em>merchandising</em> es argumentar e influenciar al público en todo momento, sin necesidad que esté presente el vendedor u otra persona llamando la atención de los consumidores.
       br
       br
       |Conozcamos cuáles son los principios del <em>merchandising</em>:
@@ -132,14 +132,14 @@
       .row
         .col-12.col-md.order-2.order-md-1
           h4 Rentabilidad
-          p En este no solo se mide la ganancia en dinero, sino también aspectos como cantidad de clientes nuevos, impacto en la comunidad, entre otros.
+          p En este principio no solo se mide la ganancia en dinero, sino también aspectos como cantidad de clientes nuevos, impacto en la comunidad, entre otros.
         img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-1.svg" style="max-width: 131px")
 
       .row
         img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-2.svg" style="max-width: 131px")
         .col-12.col-md
           h4 Ubicación
-          p.text-md-right En este se trata de buscar la mejor ubicación del local de manera que se logre un gran número de ventas.
+          p.text-md-right Este principio consiste en buscar la mejor ubicación del local de manera que se logre un gran número de ventas.
       
       .row
         .col-12.col-md.order-2.order-md-1
@@ -211,10 +211,10 @@
 
     h3 Los sentidos
 
-    p La aplicación de los cinco sentidos en el <em>merchandising</em> se denomina “neuromarketing”, concepto nuevo en el mercado que ofrece nuevas maneras de comunicación entre en comprador y el vendedor. 
+    p La aplicación de los cinco sentidos en el <em>merchandising</em> se denomina <em>“neuromarketing”</em>, concepto nuevo en el mercado que ofrece nuevas maneras de comunicación entre en comprador y el vendedor. 
       br
       br
-      |El neuromarketing se puede definir como un área de estudio interdisciplinaria en la que se aplican metodologías propiamente dichas de la neurociencia con el fin de identificar ante diferentes estímulos del marketing cual es la reacción del ser humano, permitiendo así mejorar las técnicas publicitarias y ayudando a entender la relación que existe entre la mente y la conducta del comprador.
+      |El <em>neuromarketing</em> se puede definir como un área de estudio interdisciplinaria en la que se aplican metodologías propiamente dichas de la neurociencia con el fin de identificar ante diferentes estímulos del <em>marketing</em> cual es la reacción del ser humano, permitiendo así mejorar las técnicas publicitarias y ayudando a entender la relación que existe entre la mente y la conducta del comprador.
       br
       br
       |Por medio de los cinco sentidos las personas pueden percibir los beneficios del producto trasladándolo a su subconsciente. 
@@ -255,7 +255,7 @@
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 <b>Vocabulario correcto:</b> atención, educación, halago, cortesía, etc.
 
-    p.mb-5 Y así llegamos a los diferentes tipos de <em>merchandising</em>, los cuales son:
+    p.mb-5 A continuación se presentan los diferentes tipos de <em>merchandising</em>, los cuales son:
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.d-flex.flex-wrap.color-secundario--borde(titulo="Visual" style="")

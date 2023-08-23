@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 4
       h1 Manual de identidad corporativa
-    p.mb-5 Es un documento que recopila los elementos más importantes de una marca en particular y explica cómo se deben aplicar a nivel visual ya sea en línea (online) o fuera de línea (offline).
+    p.mb-5 Es un documento que recopila los elementos más importantes de una marca en particular y explica cómo se deben aplicar a nivel visual ya sea en línea (<em>online</em>) o fuera de línea (<em>offline</em>).
 
     .mb-5.p-4.py-lg-5(style="background-color: #E4F2F8")
       .col-xl-11.d-flex.flex-wrap.mx-auto
@@ -38,7 +38,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.texto-blanco.mb-1 Manual de identidad de la red RENATA
-              p.texto-blanco.text-small Como ejemplo de un manual de identidad corporativa se invita al aprendiz a revisar el siguiente documento que enseñará el manual de identidad de la red RENATA.
+              p.texto-blanco.text-small Como ejemplo de un manual de identidad corporativa se invita al aprendiz a revisar el siguiente documento que contiene el manual de identidad de la red RENATA.
             .col-sm-auto
               a.boton.color-acento-bottones(:href="obtenerLink('downloads/Anexo1_CF029_Manual_Identidad_Corporativa_RENATA.pdf')" target="_blank")
                 span Descargar

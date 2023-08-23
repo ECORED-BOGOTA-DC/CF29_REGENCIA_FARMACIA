@@ -33,20 +33,20 @@
       img.mx-auto.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema5/img-6.svg" style="max-width: 392px")
       .col-lg-8.ps-lg-4
         TabsA.color-acento-contenido.mb-5
-          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 1°" style="")
+          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 1.°" style="")
             p Los medicamentos sólo podrán anunciarse o promocionarse en publicaciones de carácter científico o técnico, dirigidos al cuerpo médico y odontológico.  Prohíbase la propaganda de medicamentos en la prensa, la radiodifusión, la televisión, y en general, en cualquier otro medio de comunicación y promoción masiva. Esta prohibición no cobijará los medicamentos de venta libre.
-          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 2°" style="")
+          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 2.°" style="")
             p En la información o propaganda dirigida al cuerpo médico u odontológico, deberán especificarse las acciones, indicaciones, usos terapéuticos, contraindicaciones, efectos colaterales, riesgos de administración, los riesgos de farmacodependencia y las otras precauciones y advertencias, sin omitir ninguna de las que figuren en la literatura científica o fueren conocidas por los fabricantes. Igualmente, deberá siempre citarse la bibliografía sobre la cual se basa la información, e identificarse el principio activo con su nombre genérico, el cual, en el caso de medicamentos esenciales, irá en igualdad de caracteres a los del nombre o marca del medicamento.
-          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 3°" style="")
+          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 3.°" style="")
             p La publicidad e información sobre medicamentos deberá ceñirse a la verdad y, por consiguiente, no podrán exagerarse las bondades que pueda ofrecer su uso.
-          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 4°" style="")
+          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 4.°" style="")
             p Prohíbase la publicidad de medicamentos cuando:
             p a) Contraríe las normas generales aplicables en materia de educación sanitaria, nutrición o terapéutica; 
             p b) Exprese verdades parciales que induzcan a engaño o error; 
             p c) Impute, difame, cause perjuicios o comparación peyorativa para otras marcas, productos, servicios, empresas u organismos.
-          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 5°" style="")
+          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 5.°" style="")
             p Las listas de precios y los almanaques no podrán llevar las indicaciones y los usos de los productos, cuando éstos sean de venta bajo fórmula médica.
-          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 6°" style="")
+          .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 6.°" style="")
             p Los titulares de registros sanitarios que incurran en alguna de las conductas aquí descritas estarán sujetos a las medidas y sanciones previstas en el presente Decreto.
 
 </template>
