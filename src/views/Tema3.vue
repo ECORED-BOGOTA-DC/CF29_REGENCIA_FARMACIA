@@ -35,7 +35,7 @@
               .lista-ol--cuadro__vineta(style="border-radius: 50%; font-size: 11px")
                 span(style="color: black; font-weight: bold") 5
               p.mb-0 <b>Declive:</b> en esta etapa el producto pierde fuerza, por lo cual la rentabilidad baja y obliga a la empresa a tomar la decisión de continuar o no con la venta del producto.
-        img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-1.svg" style="max-width: 561px")
+        img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-1.svg" style="max-width: 561px" alt="Imagen que muestra que los productos tienen un ciclo de vida que se divide en introducción, crecimiento, madurez y declinación.  Cada una debajo se explica.")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Consumidor")
         .col-lg-6.order-2.order-lg-1.pe-lg-4
           p El consumidor es eje fundamental de la empresa, ya que todas las actividades de ésta están direccionadas a satisfacer las carencias del cliente. Se puede definir al consumidor como la o las personas que satisfacen una carencia primaria o secundaria por medio de la adquisición en el mercado de bienes o servicios.
@@ -56,17 +56,17 @@
               p.mb-0 <b>Afiliación:</b> Amistad, afecto, intimidad sexual.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta(style="border-radius: 50%; font-size: 11px")
-                span(style="color: black; font-weight: bold") 5
+                span(style="color: black; font-weight: bold") 4
               p.mb-0 <b>Seguridad:</b> Seguridad física, de empleo, de recursos, moral, familiar, de salud, de propiedad privada.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta(style="border-radius: 50%; font-size: 11px")
                 span(style="color: black; font-weight: bold") 5
               p.mb-0 <b>Fisiología:</b> Respiración, alimentación, descanso, sexo, homeostasis.
-        img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.my-lg-auto(src="@/assets/curso/temas/tema3/img-2.svg" style="max-width: 561px")
+        img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.my-lg-auto(src="@/assets/curso/temas/tema3/img-2.svg" style="max-width: 561px" alt="Imagen decorativa 5 pilares del consumidor")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Factores")
         .col-lg-6.pe-lg-4
           p.mb-4 Es importante tener en cuenta que hay diferentes factores externos e internos que intervienen en el comportamiento de compra de un cliente, como son:
-        img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 561px")
+        img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 561px" alt="Imagen decorativa de la tabla dobre la información comercial")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Proceso de administración")
         .col-lg-6.order-2.order-lg-1.pe-lg-4
           p.mb-4 El fin de este proceso es establecer cada uno de los pasos que se deben seguir en un programa de ventas, los cuales son:
@@ -80,7 +80,7 @@
             li.d-flex.align-items-start
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 <b>Evaluación y control:</b> en este punto se diseña la metodología por medio de la cual se medirá el desempeño de la fuerza de ventas.
-        img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 561px")
+        img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 561px" alt="Imagen decorativa sobre los procesos de administración para ventas, formación, Aplicación, Evaluación y control") 
 
     p.mb-5 Ahora bien, los factores que afectan las ventas son de carácter externo e interno:
 
@@ -90,13 +90,13 @@
           .col-lg-6.pe-lg-4
             h3 Ambiente externo
             p.mb-4 Se sale de las manos de la empresa, ya que como su nombre lo dice son factores y situaciones que se dan fuera de esta. Este ambiente está integrado por: 
-          img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 551px")
+          img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 551px" alt="Imagen que muestra en forma circular los componentes del ambiente externo de la empresa: Legales y políticas. Socioculturales. Económicos. Ambientales. Técnicos.")
 
         .d-flex.flex-wrap
           .col-lg-6.pe-lg-4
             h3 Ambiente interno
             p.mb-4 Está completamente relacionado con factores y situaciones que se dan dentro de la empresa. Este ambiente está integrado por:
-          img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-6.svg" style="max-width: 551px")
+          img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-6.svg" style="max-width: 551px" alt="Imagen que muestra en forma circular los componentes del ambiente interno de la empresa: Metas, objetos y cultura. Capacidades tecnológicas, de investigación y desarrollo. Capacidad de servicio. Capacidad de producción. Recursos financieros. Recursos humanos.")
     p.mb-5 Y hacen parte de las técnicas de venta, los métodos de ventas y las fases de la venta, como observaremos a continuación.
 
     h3 Métodos de venta
@@ -106,7 +106,7 @@
     ImagenInfografica.color-primario.mx-auto.col-lg-10.col-xl-6
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema3/img-7.svg')
+          img(src='@/assets/curso/temas/tema3/img-7.svg' alt="Imagen que muestra los métodos de venta, los cuales se describen en la parte inferior de la imagen.")
 
       .tarjeta.p-3(x="35%" y="23.5%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
         p.mb-0 En esta clase de venta no hay contacto físico entre el cliente y el vendedor. Algunos ejemplos son las ventas por teléfono, electrónicas ya sea por página web o WhatsApp, entre otras. Un ejemplo claro de estas ventas a nivel farmacéutico son las realizadas a domicilio.
@@ -129,16 +129,16 @@
     )
       h3 Fases de la venta
       p.mb-5 Para la realización de una buena venta se requiere del siguiente orden secuencial:
-      img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-8.svg")
-      img.d-none.d-sm-flex.d-lg-none(src="@/assets/curso/temas/tema3/img-8-md.svg")
-      img.mx-auto.d-flex.d-sm-none(src="@/assets/curso/temas/tema3/img-8-sm.svg" style="max-width: 255px")
+      img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-8.svg" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
+      img.d-none.d-sm-flex.d-lg-none(src="@/assets/curso/temas/tema3/img-8-md.svg" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
+      img.mx-auto.d-flex.d-sm-none(src="@/assets/curso/temas/tema3/img-8-sm.svg" style="max-width: 255px" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
 
     h3 Los vendedores
     p.mb-5 Un vendedor es quien tiene la experticia en la gestión comercial de la empresa para la que labora. Es quien se acerca al usuario y muy posiblemente lo convierte en cliente.
 
     .d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5.p-4(style="background-color: #B6E5EB")
       .col-lg-8.mb-4.my-lg-auto
-        img.m-auto(src="@/assets/curso/temas/tema3/img-9.jpg" style="max-width: 715px")
+        img.m-auto(src="@/assets/curso/temas/tema3/img-9.jpg" style="max-width: 715px" alt="Imagen decorativa")
       .tarjeta.tarjeta-edit-5__1.p-4.col-lg-6
         p.mb-2 Algunas de las características que debe tener un buen vendedor son:
         ul.lista-ul--color.mb-2

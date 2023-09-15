@@ -15,14 +15,14 @@
         .tarjeta.tarjeta-edit-1.p-4.col-lg-5
           p.mb-2.py-lg-5 Es un proceso que se da cuando hay dos partes en la que una opera como comprador y la otra como vendedor ya sea de bienes o de servicios, originando el intercambio. Ante esto se podría decir que hay mercado cuando:
         .col-lg-7.mb-4.my-lg-auto
-          img.m-auto(src="@/assets/curso/temas/tema1/img-1.jpg" style="max-width: 820px")
+          img.m-auto(src="@/assets/curso/temas/tema1/img-1.jpg" style="max-width: 820px" alt="Imagen decorativa")
     
     .col-lg-6.mx-auto.mb-5
       .titulo-sexto.color-acento-botones.mb-4
         h5 Figura 1
         span.d-block Mercado
       
-      img(src="@/assets/curso/temas/tema1/img-2.svg")
+      img(src="@/assets/curso/temas/tema1/img-2.svg" alt="Imagen que muestra el mercado donde hay un acuerdo de intercambio con: Intención de Comprar Intención de Vender A un precio acordado")
 
     p.mb-5 El fundamento del mercado es el intercambio, que es una acción que vienen haciendo los seres humanos desde la antigüedad por necesidad.
       br
@@ -33,11 +33,11 @@
       .py-3.py-md-4(titulo="Intercambio sin dinero (trueque)")
         .container-tabsc-1.col-xl-10.mx-auto
           p.order-2.order-lg-1.col-12.col-xl-10 Consiste en cambiar un bien por otro.
-          img.order-1.order-lg-2(src='@/assets/curso/temas/tema1/img-3.svg' style="max-width: 267px; margin-left: -14rem")
+          img.order-1.order-lg-2(src='@/assets/curso/temas/tema1/img-3.svg' style="max-width: 267px; margin-left: -14rem" alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Intercambio con dinero")
         .container-tabsc-1.col-lg-10.mx-auto
           p.order-2.order-lg-1.col-12.col-xl-10 Consiste en cambiar un bien por dinero.
-          img.order-1.order-lg-2(src='@/assets/curso/temas/tema1/img-4.svg' style="max-width: 415px; margin-left: -20rem")
+          img.order-1.order-lg-2(src='@/assets/curso/temas/tema1/img-4.svg' style="max-width: 415px; margin-left: -20rem" alt="Imagen decorativa")
 
     h3.mb-4 Integrantes del mercado
     p.mb-5 Para que el mercado se pueda dar, requiere dos clases de participantes, los cuales son:
@@ -47,7 +47,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 173px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 173px" alt="Imagen decorativa los compradores")
           
         h2.text-center Los compradores
         p También conocidos como demandantes, son las personas que desean o necesitan de un bien o de un servicio y lo adquieren, ya sea por intercambio directo o trueque o por intercambio indirecto o con dinero.
@@ -56,7 +56,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/img-6.svg' style="max-width: 173px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/img-6.svg' style="max-width: 173px" alt="Imagen decorativa los vendedores")
           
         h2.text-center Los vendedores
         p También conocidos como oferentes, son las personas interesadas en vender un bien o servicios y lo realizan, ya sea por trueque o por dinero.
@@ -67,7 +67,7 @@
     .row
       .tarjeta-avatar-b.mb-5.align-items-start.align-items-lg-center
         .tarjeta-avatar-b__img.position-relative(style="z-index: 1")
-          img.mx-auto(src='@/assets/curso/temas/tema1/t-1.svg' style="max-width: 161px")
+          img.mx-auto(src='@/assets/curso/temas/tema1/t-1.svg' style="max-width: 161px" alt="Imagen decorativa Bienes y servicios")
         .tarjeta.tarjeta--azul-edit(style="background-color: #F1EEFC")
           .p-3
             h4 Bienes y servicios
@@ -76,7 +76,7 @@
 
       .tarjeta-avatar-b.mb-5.align-items-start.align-items-lg-center
         .tarjeta-avatar-b__img.position-relative(style="z-index: 1")
-          img.mx-auto(src='@/assets/curso/temas/tema1/t-2.svg' style="max-width: 161px")
+          img.mx-auto(src='@/assets/curso/temas/tema1/t-2.svg' style="max-width: 161px" alt="Imagen decorativa Factores de producción")
         .tarjeta.tarjeta--azul-edit(style="background-color: #F1EEFC")
           .p-3
             h4 Factores de producción
@@ -105,7 +105,7 @@
             p Crear las alertas que sean necesarias para eludir el fracaso al comercializarlo. 
         p Ambas razones se pueden resumir en una: <b>aminorar la incertidumbre al momento de tomar decisiones.</b> 
       .col-lg-4.mx-auto
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 400px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 400px" alt="Imagen decorativa")
 
     .col-xl-6.col-lg-10.mx-auto
       .cajon.color-secundario.p-4.mb-4(style="background-color: #E4DDFA")
@@ -119,7 +119,7 @@
       ImagenInfografica.color-primario.col-lg-10.col-xl-8.mx-auto
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/img-8.svg')
+            img(src='@/assets/curso/temas/tema1/img-8.svg' alt="Pasos del proceso de investigación de mercados")
 
         .tarjeta.p-3(x="15.5%" y="5.5%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
           .h5.mb-2 1. Definir el problema de <em>marketing</em> y los objetivos de la investigación.
@@ -183,13 +183,13 @@
               span(style="color: black; font-weight: bold") 8
             p.mb-0 Analizar la información.
       .col-lg-5.mx-auto
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-9.svg" style="max-width: 505px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-9.svg" style="max-width: 505px" alt="Imagen decorativa")
 
     p.mb-5 Para la realización de preguntas para una encuesta de investigación de mercados, existen diferentes opciones, las cuales son: 
 
     .d-flex.flex-wrap.align-items-center.mb-0
       .col-lg-4.mx-auto
-        img.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-10.png" style="max-width: 400px")
+        img.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-10.png" style="max-width: 400px" alt="Imagen decorativa")
       AcordionA.col-lg-8.ps-lg-4.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
         .row(titulo="Preguntas abiertas")
           .mb-4.mb-md-0

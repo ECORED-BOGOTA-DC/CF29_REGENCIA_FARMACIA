@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que muestra la síntesis del merchandising en los servicios farmacéutico donde define: mercado, mercadeo, ventas, manual de identidad y publicidad; con el objetivo de reducir los costos de comercialización, almacenamiento y distribución, permitiendo a las empresas investigar sobre preferencias de los consumidores.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

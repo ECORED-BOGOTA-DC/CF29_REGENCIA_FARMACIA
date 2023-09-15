@@ -18,19 +18,19 @@
 
         p En relación al marco normativo de la publicidad de medicamentos, en Colombia se rige por:
       .col-lg-4.mx-auto.mx-lg-0
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema5/img-1.png" style="max-width: 284px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema5/img-1.png" style="max-width: 284px" alt="Imagen decorativa")
 
     LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.col-xl-10.mx-auto.mb-5(style="background-color: #9FCAF2")
       .bloque-texto-g__img(style="background-color: #E8E8E8")
-      img.position-relative.mx-auto.ms-lg-0.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 156px;")
+      img.position-relative.mx-auto.ms-lg-0.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 156px;" alt="Imagen decorativa")
       .bloque-texto-g__texto.p-4.ms-lg-4
         p.mb-0 Los titulares del registro serán responsables de cualquier transgresión en el contenido de los materiales de promoción y publicidad, y de las consecuencias que lo pueda generar en la salud individual o colectiva.  Será función del Invima velar por el cumplimiento de lo aquí previsto, teniendo en cuenta la reglamentación que para el efecto expida el Ministerio de Salud.
     p.mb-5 Precisando en los siguientes parágrafos:
 
     .d-flex.flex-wrap
-      img.mx-auto.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema5/img-6.svg" style="max-width: 392px")
+      img.mx-auto.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema5/img-6.svg" style="max-width: 392px" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4
         TabsA.color-acento-contenido.mb-5
           .tarjeta.d-flex.flex-wrap.color-secundario--borde.p-4(titulo="Parágrafo 1.°" style="")

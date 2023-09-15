@@ -17,12 +17,12 @@
           .bloque-texto-d__autor 
             .h6.mb-0 Miguel Hernández Espallardo (2001).
       .col-lg-4.mx-auto
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 400px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 400px" alt="Imagen decorativa")
     p.mb-5 El núcleo del <em>marketing</em> es el consumidor, por ende, todo el empeño debe estar enfocado en este con:
 
     .d-flex.flex-wrap.mb-5
       .col-lg-4.mx-auto.mb-5.mb-lg-auto
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 389px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 389px" alt="Imagen decorativa")
       .col-12.col-lg-8.ps-lg-4.d-flex.flex-wrap.align-content-center
         .col-12.col-md-6
           .tarjeta-edit-5_1
@@ -47,7 +47,7 @@
         h5 Figura 2
         span.d-block Mercadeo
       
-      img(src="@/assets/curso/temas/tema2/img-3.svg")
+      img(src="@/assets/curso/temas/tema2/img-3.svg" alt="Imagen que muestra en 2 columnas los componentes del mercadeo que son: producto y/o servicio y cliente y/o consumidor con sus acciones como son medio, relato, servicio y objetivo para producto y planeación, información, comunicación y producto para cliente.")
     
     p.mb-5 Dentro del mercadeo encontramos lo que se llama ambientes del mercadeo, que son el conjunto de fortalezas macro y micro que se localizan en el exterior de la empresa y que intervienen en la gestión gerencial al momento de fidelizar los clientes.
       br
@@ -85,7 +85,7 @@
 
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-lg-7.mb-4.my-lg-auto
-        img.m-auto(src="@/assets/curso/temas/tema2/img-4.jpg" style="max-width: 715px")
+        img.m-auto(src="@/assets/curso/temas/tema2/img-4.jpg" style="max-width: 715px" alt="Imagen decorativa")
       .tarjeta.tarjeta-edit-5.p-4.col-lg-5
         p.mb-2 Esta técnica busca:
         ul.lista-ul--color.mb-2
@@ -111,13 +111,13 @@
     .mb-5.py-4(style="background-color: #D5F1FE")
       SlyderF(columnas="col-12")
         .tarjeta.p-4
-          img.mb-3(src="@/assets/curso/temas/tema2/img-6.jpg")
+          img.mb-3(src="@/assets/curso/temas/tema2/img-6.jpg" alt="Imagen que muestra aviso de ingreso a una farmacia de un hospital.")
           h3.fw-bold Avisos
         .tarjeta.p-4
-          img.mb-3(src="@/assets/curso/temas/tema2/img-7.jpg")
+          img.mb-3(src="@/assets/curso/temas/tema2/img-7.jpg" alt="Imagen que muestra una mujer con dotación adecuada para atención en una farmacia como lo es tapabocas, bata blanca, entre otros aspectos.")
           h3.fw-bold Presentación personal
         .tarjeta.p-4
-          img.mb-3(src="@/assets/curso/temas/tema2/img-8.jpg")
+          img.mb-3(src="@/assets/curso/temas/tema2/img-8.jpg" alt="Imagen que muestra un estante organizado con una persona identificando productos de farmacia en una tablet.")
           h3.fw-bold Organización y limpieza
 
     p.mb-5 La frase de Philip Kotler: <b>“la mejor publicidad es la que hacen los clientes satisfechos”</b> es más que cierta, porque una manera exitosa de vender productos y servicios es por el voz a voz de los clientes satisfechos.
@@ -133,10 +133,10 @@
         .col-12.col-md.order-2.order-md-1
           h4 Rentabilidad
           p En este principio no solo se mide la ganancia en dinero, sino también aspectos como cantidad de clientes nuevos, impacto en la comunidad, entre otros.
-        img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-1.svg" style="max-width: 131px")
+        img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-1.svg" style="max-width: 131px" alt="Imagen decorativa")
 
       .row
-        img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-2.svg" style="max-width: 131px")
+        img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-2.svg" style="max-width: 131px" alt="Imagen decorativa")
         .col-12.col-md
           h4 Ubicación
           p.text-md-right Este principio consiste en buscar la mejor ubicación del local de manera que se logre un gran número de ventas.
@@ -145,10 +145,10 @@
         .col-12.col-md.order-2.order-md-1
           h4 Impacto
           p Se trata de impactar la mente del cliente con productos atractivos y de excelente calidad.
-        img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-3.svg" style="max-width: 131px")
+        img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-3.svg" style="max-width: 131px" alt="Imagen decorativa")
 
       .row
-        img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-4.svg" style="max-width: 131px")
+        img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-4.svg" style="max-width: 131px" alt="Imagen decorativa")
         .col-12.col-md
           h4 Disponibilidad
           p.text-md-right Se trata de tener en todo momento disponibilidad de los productos.
@@ -157,10 +157,10 @@
         .col-12.col-md.order-2.order-md-1
           h4 Precio
           p Los precios de los productos son fundamentales para inducir a la decisión de la compra.
-        img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-5.svg" style="max-width: 131px")
+        img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-5.svg" style="max-width: 131px" alt="Imagen decorativa")
 
       .row
-        img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-6.svg" style="max-width: 131px")
+        img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-6.svg" style="max-width: 131px" alt="Imagen decorativa")
         .col-12.col-md
           h4 Exhibición
           p.text-md-right Los productos deben exhibirse de manera que llamen la atención pero que en ningún momento represente un peligro para el cliente.
@@ -176,7 +176,7 @@
           ImagenInfografica.color-primario.mx-auto
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema2/img-9.svg')
+                img(src='@/assets/curso/temas/tema2/img-9.svg' alt="Imagen decorativa psicología  del color")
 
             .tarjeta.p-3(x="9.5%" y="12%" numero="" style="background-color: #DDD3FF; border-radius: 3px;")
               h4 Azul
@@ -226,13 +226,13 @@
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center;"
     )
-      img.col-lg-10.col-xl-6.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 627px; filter: drop-shadow(rgba(0, 0, 0, 0.063) 2px 8px 6px);")
+      img.col-lg-10.col-xl-6.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 627px; filter: drop-shadow(rgba(0, 0, 0, 0.063) 2px 8px 6px);" alt="Imagen que muestra una infografía de los sentidos  con los siguientes textos: Vista. Se recibe el 55 % del 100 % de lo que llega al cerebro. Gusto. Se recibe el 5 % del 100 % que llega al cerebro. Olfato. Se recibe el 12 % del 100 % que llega al cerebro. Tacto. Se recibe el 10 % del 100 % que llega al cerebro. Oído. Se recibe el 18 % del 100 % de lo que llega al cerebro")
 
     h3 Los elementos
 
     .mb-5.p-4.py-lg-5(style="background-color: #F4F1FF")
       .col-xl-11.d-flex.flex-wrap.mx-auto
-        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 472px;")
+        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 472px;" alt="Imagen decorativa") 
         .col-lg-6.mx-auto
           p También es importante tener presente que todos los elementos de un comercio tienen su propio mensaje individual; por ejemplo:
           ul.lista-ul--color.mb-2
@@ -262,25 +262,25 @@
         .col-lg-8.p-4
           p.fw-bold <em>Merchandising</em> visual
           p Es un conjunto de estrategias que se basa en llamar la atención de los clientes por medio de la vista. Esto se logra por medio de las estanterías, el orden, aseo, iluminación y avisos del establecimiento. Aquí es importante destacar el o los productos que se desean vender. Esta clase de <em>merchandising</em> contribuye al incremento de las ventas y a que la marca cada vez se note más, además a que las personas se motiven a ingresar al establecimiento y de seguro compren.
-        img.mx-auto.pe-lg-4.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-12.jpg" style="max-width: 288px")
+        img.mx-auto.pe-lg-4.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-12.jpg" style="max-width: 288px" alt="Imagen decorativa Merchandising visual")
       
       .tarjeta.d-flex.flex-wrap.color-secundario--borde(titulo="Seducción" style="")
         .col-lg-8.p-4
           p.fw-bold <em>Merchandising</em> de seducción
           p Se trata de llamar la atención del cliente por medio de los impulsos sensoriales, ya sea por tener vitrinas bonitas y llamativas, que el establecimiento tenga un buen olor característico, un personaje famoso, música, muy buena iluminación (las personas suelen ingresar a las zonas con mucha iluminación), entre otras. Cabe aclarar que esta técnica es mas utilizada en centros comerciales o en tiendas grandes.
-        img.mx-auto.pe-lg-4.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-13.jpg" style="max-width: 288px")
+        img.mx-auto.pe-lg-4.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-13.jpg" style="max-width: 288px" alt="Imagen decorativa Merchandising de seducción")
       
       .tarjeta.d-flex.flex-wrap.color-secundario--borde(titulo="Gestión" style="")
         .col-lg-8.p-4
           p.fw-bold <em>Merchandising</em> de gestión
           p Consiste en gestionar de forma correcta el espacio para la exposición y venta de los productos, de manera que se logre mayor rentabilidad y ahorro de espacios. El <em>merchandising</em> de gestión comprende estudiar el mercado, gestionar los espacios, gestionar el surtido, comunicación y la determinación del tamaño lineal de cada sección.
-        img.mx-auto.pe-lg-4.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-12.jpg" style="max-width: 288px")
+        img.mx-auto.pe-lg-4.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-12.jpg" style="max-width: 288px" alt="Imagen decorativa Merchandising de gestión")
 
     p.mb-5 También es importante reconocer y tener presente la importancia del empaque:
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.col-xl-10.mx-auto(style="background-color: #9FCAF2")
       .bloque-texto-g__img(style="background-color: #E8E8E8")
-      img.position-relative.mx-auto.ms-lg-0.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-15.svg" style="max-width: 156px;")
+      img.position-relative.mx-auto.ms-lg-0.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-15.svg" style="max-width: 156px;" alt="Imagen decorativa")
       .bloque-texto-g__texto.p-4.ms-lg-4
         p.mb-0 <b>Relación empaque - <em>merchandising</em></b>
           br

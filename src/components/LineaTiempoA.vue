@@ -12,7 +12,7 @@
     .linea-tiempo-a__content
       .linea-tiempo-a__icon
         .linea-tiempo-a__icon__container
-          img(:src="item.ano")
+          img(:src="item.ano" :alt="item.titulo")
 </template>
 
 <script>

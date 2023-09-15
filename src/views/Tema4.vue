@@ -10,7 +10,7 @@
 
     .mb-5.p-4.py-lg-5(style="background-color: #E4F2F8")
       .col-xl-11.d-flex.flex-wrap.mx-auto
-        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-1.svg" style="max-width: 472px;")
+        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-1.svg" style="max-width: 472px;" alt="Imagen decorativa")
         .col-lg-6.mx-auto
           p En tal sentido, los elementos mínimos que debe llevar el manual de identidad corporativa son:
           ul.lista-ul--color.mb-2
@@ -33,7 +33,7 @@
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema4/img-2.svg")
+          img(src="@/assets/curso/temas/tema4/img-2.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
