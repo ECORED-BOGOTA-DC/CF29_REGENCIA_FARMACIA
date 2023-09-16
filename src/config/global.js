@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       '<em>Merchandising</em> en los servicios farmacéuticos',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia "lanzar la promoción comercial según objetivos y herramientas promocionales", con el propósito de que los aprendices reconozcan las estrategias de mercadeo para la promoción y venta de productos farmacéuticos, teniendo presente la normatividad legal vigente, las políticas institucionales y las tecnologías disponibles.',
+      'En este componente formativo se abordan los conocimientos de la competencia "Lanzar la promoción comercial según objetivos y herramientas promocionales", con el propósito de que los aprendices reconozcan las estrategias de mercadeo para la promoción y venta de productos farmacéuticos, teniendo presente la normatividad legal vigente, las políticas institucionales y las tecnologías disponibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
