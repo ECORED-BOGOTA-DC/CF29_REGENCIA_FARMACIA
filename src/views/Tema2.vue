@@ -1,14 +1,14 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(data-aos="flip-up")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
       h1 Mercadeo o <em>marketing</em>
     
-    .container-100.d-flex.flex-wrap.mb-5.align-items-end
-      .col-lg-8.pe-lg-4
+    .container-100.d-flex.flex-wrap.mb-5.justify-content-center.align-items-end
+      .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         .bloque-texto-d.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
@@ -16,14 +16,15 @@
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 Miguel Hernández Espallardo (2001).
-      .col-lg-4.mx-auto
+      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 400px" alt="Imagen decorativa")
-    p.mb-5 El núcleo del <em>marketing</em> es el consumidor, por ende, todo el empeño debe estar enfocado en este con:
+    
+    p.mb-5(data-aos="fade-right") El núcleo del <em>marketing</em> es el consumidor, por ende, todo el empeño debe estar enfocado en este con:
 
     .d-flex.flex-wrap.mb-5
-      .col-lg-4.mx-auto.mb-5.mb-lg-auto
+      .col-lg-4.mx-auto.mb-5.mb-lg-auto(data-aos="fade-right")
         img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 389px" alt="Imagen decorativa")
-      .col-12.col-lg-8.ps-lg-4.d-flex.flex-wrap.align-content-center
+      .col-12.col-lg-8.ps-lg-4.d-flex.flex-wrap.align-content-center(data-aos="fade-left")
         .col-12.col-md-6
           .tarjeta-edit-5_1
             span 1
@@ -40,24 +41,23 @@
           .tarjeta-edit-5_1
             span 4
             p.mb-0.text-center El servicio
-    p.mb-5 La siguiente imagen nos muestra el concepto de mercadeo.
+    
+    p.mb-5(data-aos="fade-right") La siguiente imagen nos muestra el concepto de mercadeo.
 
     .col-lg-10.col-xl-6.mx-auto.mb-5
-      .titulo-sexto.color-acento-botones.mb-4
-        h5 Figura 2
-        span.d-block Mercadeo
-      
-      img(src="@/assets/curso/temas/tema2/img-3.svg" alt="Imagen que muestra en 2 columnas los componentes del mercadeo que son: producto y/o servicio y cliente y/o consumidor con sus acciones como son medio, relato, servicio y objetivo para producto y planeación, información, comunicación y producto para cliente.")
+      .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+        h5 Figura 2.
+        span Mercadeo
+      figure(data-aos="zoom-in")
+        img(src="@/assets/curso/temas/tema2/img-3.svg" alt="Imagen que muestra en 2 columnas los componentes del mercadeo que son: producto y/o servicio y cliente y/o consumidor con sus acciones como son medio, relato, servicio y objetivo para producto y planeación, información, comunicación y producto para cliente.")
     
-    p.mb-5 Dentro del mercadeo encontramos lo que se llama ambientes del mercadeo, que son el conjunto de fortalezas macro y micro que se localizan en el exterior de la empresa y que intervienen en la gestión gerencial al momento de fidelizar los clientes.
-      br
-      br
-      |La siguiente tabla presenta cuáles son esas fortalezas.
+    p(data-aos="fade-right") Dentro del mercadeo encontramos lo que se llama ambientes del mercadeo, que son el conjunto de fortalezas macro y micro que se localizan en el exterior de la empresa y que intervienen en la gestión gerencial al momento de fidelizar los clientes.
+    p.mb-5(data-aos="fade-right") La siguiente tabla presenta cuáles son esas fortalezas.
 
     .col-lg-10.col-xl-8.mx-auto.mb-5
-      .titulo-sexto.color-acento-botones.mb-4
-        h5 Tabla 1
-        span.d-block Fortalezas para fidelizar los clientes
+      .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+        h5 Tabla 1.
+        span Fortalezas para fidelizar los clientes
       
       .tabla-b.color-acento-contenido.mb-5
         .tabla-b__header.d-flex
@@ -65,28 +65,29 @@
           h4.col-6.mb-0 Microambiente
         table
           tr
-          tr
+          tr(data-aos="fade-right")
             td(style="border-right: 1px solid #AFAFAF") Demográficas: sexo, edad, etc.
             td(rowspan="2" style="background-color: white;") Proveedores: empresas que surten a las otras empresas de bienes y servicios. Para que puedan ofrecer sus productos al mercado.
-          tr
+          tr(data-aos="fade-right")
             td(style="border-right: 1px solid #AFAFAF") Económicas: situación económica del mercado.
-          tr
+          tr(data-aos="fade-right")
             td(style="border-right: 1px solid #AFAFAF") Tecnológicas: avances científicos.
             td(rowspan="2") Competidores: Organizaciones que ofrecen lo mismo.
-          tr
+          tr(data-aos="fade-right")
             td(style="border-right: 1px solid #AFAFAF") Naturales: clima, desastres, etc.
-          tr
+          tr(data-aos="fade-right")
             td(style="border-right: 1px solid #AFAFAF") Políticas gubernamentales.
             td(rowspan="2" style="background-color: white;") Intermediarios: facilitadores del conocimiento con los consumidores y que estos puedan adquirir sus productos en los diferentes canales de distribución.
-          tr
+          tr(data-aos="fade-right")
             td(style="border-right: 1px solid #AFAFAF") Culturales: conducta de la población.
-    h3.mb-5 <em>Merchadising</em>
-    p.mb-5 El <em>merchandising</em> hace parte del mercadeo o <em>marketing</em> y engloba las técnicas comerciales por medio de las cuales se hace posible presentar al comprador el bien o el servicio en las condiciones materiales y psicológicas apropiadas.
+    
+    h3.mb-5(data-aos="fade-left") <em>Merchadising</em>
+    p.mb-5(data-aos="fade-right") El <em>merchandising</em> hace parte del mercadeo o <em>marketing</em> y engloba las técnicas comerciales por medio de las cuales se hace posible presentar al comprador el bien o el servicio en las condiciones materiales y psicológicas apropiadas.
 
     .d-flex.flex-wrap.align-items-center.mb-5
-      .col-lg-7.mb-4.my-lg-auto
+      .col-lg-7.mb-4.my-lg-auto(data-aos="fade-right")
         img.m-auto(src="@/assets/curso/temas/tema2/img-4.jpg" style="max-width: 715px" alt="Imagen decorativa")
-      .tarjeta.tarjeta-edit-5.p-4.col-lg-5
+      .tarjeta.tarjeta-edit-5.p-4.col-lg-5(data-aos="fade-left")
         p.mb-2 Esta técnica busca:
         ul.lista-ul--color.mb-2
           li.d-flex.align-items-start
@@ -102,13 +103,13 @@
             img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
             p.mb-0.ps-2 Favorecer las intervenciones de los representantes como vendedores, mercaderistas o impulsadoras.
     
-    .col-lg-10.mx-auto
+    .col-lg-10.mx-auto(data-aos="flip-up")
       .cajon.color-secundario.p-4.mb-4(style="background-color: #E4DDFA")
         p.mb-0 A nivel farmacéutico, el <em>merchandising</em> no solo es contar con productos de buena calidad, también se trata de ofrecer al cliente/usuario buena presentación personal, un lugar aseado y organizado y con avisos atractivos visualmente y que hablen bien del establecimiento.
     
-    p.mb-5 A continuación, se presentan unos ejemplos, por medio de imágenes, con el fin de que se reflexione ante lo mencionado:
+    p.mb-5(data-aos="fade-right") A continuación, se presentan unos ejemplos, por medio de imágenes, con el fin de que se reflexione ante lo mencionado:
     
-    .mb-5.py-4(style="background-color: #D5F1FE")
+    .mb-5.py-4(style="background-color: #D5F1FE" data-aos="zoom-in")
       SlyderF(columnas="col-12")
         .tarjeta.p-4
           img.mb-3(src="@/assets/curso/temas/tema2/img-6.jpg" alt="Imagen que muestra aviso de ingreso a una farmacia de un hospital.")
@@ -120,59 +121,55 @@
           img.mb-3(src="@/assets/curso/temas/tema2/img-8.jpg" alt="Imagen que muestra un estante organizado con una persona identificando productos de farmacia en una tablet.")
           h3.fw-bold Organización y limpieza
 
-    p.mb-5 La frase de Philip Kotler: <b>“la mejor publicidad es la que hacen los clientes satisfechos”</b> es más que cierta, porque una manera exitosa de vender productos y servicios es por el voz a voz de los clientes satisfechos.
-      br
-      br
-      |Es así como el propósito final de las técnicas de <em>merchandising</em> es argumentar e influenciar al público en todo momento, sin necesidad que esté presente el vendedor u otra persona llamando la atención de los consumidores.
-      br
-      br
-      |Conozcamos cuáles son los principios del <em>merchandising</em>:
+    p(data-aos="fade-right") La frase de Philip Kotler: <b>“la mejor publicidad es la que hacen los clientes satisfechos”</b> es más que cierta, porque una manera exitosa de vender productos y servicios es por el voz a voz de los clientes satisfechos.
+    p(data-aos="fade-right") Es así como el propósito final de las técnicas de <em>merchandising</em> es argumentar e influenciar al público en todo momento, sin necesidad que esté presente el vendedor u otra persona llamando la atención de los consumidores.
+    p.mb-5(data-aos="fade-right") Conozcamos cuáles son los principios del <em>merchandising</em>:
 
     PasosA.color-secundario.col-lg-10.col-xl-8.mx-auto.mb-5(tipo="n")
-      .row
+      .row(data-aos="fade-left")
         .col-12.col-md.order-2.order-md-1
           h4 Rentabilidad
           p En este principio no solo se mide la ganancia en dinero, sino también aspectos como cantidad de clientes nuevos, impacto en la comunidad, entre otros.
         img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-1.svg" style="max-width: 131px" alt="Imagen decorativa")
 
-      .row
+      .row(data-aos="fade-right")
         img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-2.svg" style="max-width: 131px" alt="Imagen decorativa")
         .col-12.col-md
           h4 Ubicación
           p.text-md-right Este principio consiste en buscar la mejor ubicación del local de manera que se logre un gran número de ventas.
       
-      .row
+      .row(data-aos="fade-left")
         .col-12.col-md.order-2.order-md-1
           h4 Impacto
           p Se trata de impactar la mente del cliente con productos atractivos y de excelente calidad.
         img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-3.svg" style="max-width: 131px" alt="Imagen decorativa")
 
-      .row
+      .row(data-aos="fade-right")
         img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-4.svg" style="max-width: 131px" alt="Imagen decorativa")
         .col-12.col-md
           h4 Disponibilidad
           p.text-md-right Se trata de tener en todo momento disponibilidad de los productos.
       
-      .row
+      .row(data-aos="fade-left")
         .col-12.col-md.order-2.order-md-1
           h4 Precio
           p Los precios de los productos son fundamentales para inducir a la decisión de la compra.
         img.mb-4.mb-md-auto.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/p-5.svg" style="max-width: 131px" alt="Imagen decorativa")
 
-      .row
+      .row(data-aos="fade-right")
         img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-6.svg" style="max-width: 131px" alt="Imagen decorativa")
         .col-12.col-md
           h4 Exhibición
           p.text-md-right Los productos deben exhibirse de manera que llamen la atención pero que en ningún momento represente un peligro para el cliente.
 
-    p.mb-5 Ahora, un buen plan estratégico de <em>merchandising</em> permite el crecimiento comercial del establecimiento, debido a que permite la presentación propia del producto ante el cliente. El <em>merchandising</em> se sustenta en varias teorías, a continuación, se mencionan algunas de ellas:
+    p.mb-5(data-aos="fade-right") Ahora, un buen plan estratégico de <em>merchandising</em> permite el crecimiento comercial del establecimiento, debido a que permite la presentación propia del producto ante el cliente. El <em>merchandising</em> se sustenta en varias teorías, a continuación, se mencionan algunas de ellas:
 
     .mb-5.p-4(style="background-color: #D5F1FE")
       .col-lg-10.mx-auto.d-flex.flex-wrap
-        .col-lg-7.pe-lg-4.order-2.order-lg-1
+        .col-lg-7.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
           h4 Psicología del color
           p Los colores tienen la propiedad de afectar psicológicamente y generar diferentes sensaciones. Cada color tiene un significado propio y además tiene la capacidad de comunicar ideas, llamar la atención, provocar emociones y reacciones, entre otras características.
-        .col-lg-5.mx-auto.order-1.order-lg-2.mb-4.mb-lg-auto
+        .col-lg-5.mx-auto.order-1.order-lg-2.mb-4.mb-lg-auto(data-aos="fade-left")
           ImagenInfografica.color-primario.mx-auto
             template(v-slot:imagen)
               figure
@@ -209,31 +206,26 @@
               h4 Blanco
               p Simplicidad, limpieza, pureza.
 
-    h3 Los sentidos
+    h3(data-aos="fade-left") Los sentidos
 
-    p La aplicación de los cinco sentidos en el <em>merchandising</em> se denomina <em>“neuromarketing”</em>, concepto nuevo en el mercado que ofrece nuevas maneras de comunicación entre en comprador y el vendedor. 
-      br
-      br
-      |El <em>neuromarketing</em> se puede definir como un área de estudio interdisciplinaria en la que se aplican metodologías propiamente dichas de la neurociencia con el fin de identificar ante diferentes estímulos del <em>marketing</em> cual es la reacción del ser humano, permitiendo así mejorar las técnicas publicitarias y ayudando a entender la relación que existe entre la mente y la conducta del comprador.
-      br
-      br
-      |Por medio de los cinco sentidos las personas pueden percibir los beneficios del producto trasladándolo a su subconsciente. 
-      br
-      br
-      |Esto se da de la siguiente forma:
+    p(data-aos="fade-right") La aplicación de los cinco sentidos en el <em>merchandising</em> se denomina <em>neuromarketing</em>, concepto nuevo en el mercado que ofrece nuevas maneras de comunicación entre en comprador y el vendedor. 
+    p(data-aos="fade-right") El <em>neuromarketing</em> se puede definir como un área de estudio interdisciplinaria en la que se aplican metodologías propiamente dichas de la neurociencia con el fin de identificar ante diferentes estímulos del <em>marketing</em> cual es la reacción del ser humano, permitiendo así mejorar las técnicas publicitarias y ayudando a entender la relación que existe entre la mente y la conducta del comprador.
+    p(data-aos="fade-right") Por medio de los cinco sentidos las personas pueden percibir los beneficios del producto trasladándolo a su subconsciente. 
+    p.mb-5(data-aos="fade-right") Esto se da de la siguiente forma:
 
     .container-100.mb-5.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center;"
     )
-      img.col-lg-10.col-xl-6.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 627px; filter: drop-shadow(rgba(0, 0, 0, 0.063) 2px 8px 6px);" alt="Imagen que muestra una infografía de los sentidos  con los siguientes textos: Vista. Se recibe el 55 % del 100 % de lo que llega al cerebro. Gusto. Se recibe el 5 % del 100 % que llega al cerebro. Olfato. Se recibe el 12 % del 100 % que llega al cerebro. Tacto. Se recibe el 10 % del 100 % que llega al cerebro. Oído. Se recibe el 18 % del 100 % de lo que llega al cerebro")
+      figure(data-aos="zoom-in")
+        img.col-lg-10.col-xl-6.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 627px; filter: drop-shadow(rgba(0, 0, 0, 0.063) 2px 8px 6px);" alt="Imagen que muestra una infografía de los sentidos  con los siguientes textos: Vista. Se recibe el 55 % del 100 % de lo que llega al cerebro. Gusto. Se recibe el 5 % del 100 % que llega al cerebro. Olfato. Se recibe el 12 % del 100 % que llega al cerebro. Tacto. Se recibe el 10 % del 100 % que llega al cerebro. Oído. Se recibe el 18 % del 100 % de lo que llega al cerebro")
 
-    h3 Los elementos
+    h3(data-aos="fade-left") Los elementos
 
     .mb-5.p-4.py-lg-5(style="background-color: #F4F1FF")
       .col-xl-11.d-flex.flex-wrap.mx-auto
-        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 472px;" alt="Imagen decorativa") 
-        .col-lg-6.mx-auto
+        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 472px;" alt="Imagen decorativa" data-aos="fade-right") 
+        .col-lg-6.mx-auto(data-aos="fade-left")
           p También es importante tener presente que todos los elementos de un comercio tienen su propio mensaje individual; por ejemplo:
           ul.lista-ul--color.mb-2
             li.d-flex.align-items-start
@@ -255,9 +247,9 @@
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 <b>Vocabulario correcto:</b> atención, educación, halago, cortesía, etc.
 
-    p.mb-5 A continuación se presentan los diferentes tipos de <em>merchandising</em>, los cuales son:
+    p.mb-5(data-aos="fade-right") A continuación se presentan los diferentes tipos de <em>merchandising</em>, los cuales son:
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="zoom-in")
       .tarjeta.d-flex.flex-wrap.color-secundario--borde(titulo="Visual" style="")
         .col-lg-8.p-4
           p.fw-bold <em>Merchandising</em> visual
@@ -276,7 +268,7 @@
           p Consiste en gestionar de forma correcta el espacio para la exposición y venta de los productos, de manera que se logre mayor rentabilidad y ahorro de espacios. El <em>merchandising</em> de gestión comprende estudiar el mercado, gestionar los espacios, gestionar el surtido, comunicación y la determinación del tamaño lineal de cada sección.
         img.mx-auto.pe-lg-4.col-lg-4.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema2/img-12.jpg" style="max-width: 288px" alt="Imagen decorativa Merchandising de gestión")
 
-    p.mb-5 También es importante reconocer y tener presente la importancia del empaque:
+    p.mb-5(data-aos="fade-right") También es importante reconocer y tener presente la importancia del empaque:
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.col-xl-10.mx-auto(style="background-color: #9FCAF2")
       .bloque-texto-g__img(style="background-color: #E8E8E8")
@@ -285,7 +277,6 @@
         p.mb-0 <b>Relación empaque - <em>merchandising</em></b>
           br
           |El empaque juega un papel muy importante como herramienta del <em>merchandising</em> cuando se quiere llamar la atención del consumidor hacia el producto que se está vendiendo. Ese es uno de sus objetivos, además comprende todas las actividades publicitarias y promocionales realizadas a nivel detallista.
- 
 
 </template>
 

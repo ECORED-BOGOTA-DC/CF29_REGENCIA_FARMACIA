@@ -2,39 +2,40 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Manual de identidad corporativa
-    p.mb-5 Es un documento que recopila los elementos más importantes de una marca en particular y explica cómo se deben aplicar a nivel visual ya sea en línea (<em>online</em>) o fuera de línea (<em>offline</em>).
+    
+    p.mb-5(data-aos="fade-right") Es un documento que recopila los elementos más importantes de una marca en particular y explica cómo se deben aplicar a nivel visual ya sea en línea (<em>online</em>) o fuera de línea (<em>offline</em>).
 
     .mb-5.p-4.py-lg-5(style="background-color: #E4F2F8")
       .col-xl-11.d-flex.flex-wrap.mx-auto
-        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-1.svg" style="max-width: 472px;" alt="Imagen decorativa")
+        img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-1.svg" data-aos="fade-right" style="max-width: 472px;" alt="Imagen decorativa")
         .col-lg-6.mx-auto
-          p En tal sentido, los elementos mínimos que debe llevar el manual de identidad corporativa son:
+          p(data-aos="fade-left") En tal sentido, los elementos mínimos que debe llevar el manual de identidad corporativa son:
           ul.lista-ul--color.mb-2
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-left")
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 El logotipo.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-left")
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 Los colores corporativos.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-left")
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 Las tipografías.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-left")
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 Los patrones, iconos y otros elementos gráficos.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-left")
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 Los extras opcionales.
     
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-3.col-sm-2.col-lg-1(data-aos="fade-right")
           img(src="@/assets/curso/temas/tema4/img-2.svg" alt="Imagen decorativa")
-        .col
+        .col(data-aos="fade-left")
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.texto-blanco.mb-1 Manual de identidad de la red RENATA

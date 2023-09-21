@@ -2,22 +2,19 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Ventas
-    p.mb-5 Las ventas, en términos económicos, son la acción de entregar a un comprador un bien o un servicio ya sea por convenio o por un valor estipulado.  
-      br
-      br
-      |Los aspectos básicos de las ventas son: el producto, el cliente o consumidor, el proceso de administración de venta, como se muestra a continuación:
+    
+    p(data-aos="fade-right") Las ventas, en términos económicos, son la acción de entregar a un comprador un bien o un servicio ya sea por convenio o por un valor estipulado.  
+    p.mb-5(data-aos="fade-right") Los aspectos básicos de las ventas son: el producto, el cliente o consumidor, el proceso de administración de venta, como se muestra a continuación:
 
-    TabsC.color-secundario.mb-5
+    TabsC.color-secundario.mb-5(data-aos="zoom-in")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Producto")
         .col-lg-6.order-2.order-lg-1.pe-lg-4
-          p.mb-4 Un producto es una mezcla de características tangibles, como el color del empaque, e intangibles, como los beneficios que le pueda dar el producto o servicio que el cliente o consumidor considera puede complacer su necesidad. 
-            br
-            br
-            |Los productos tienen un ciclo de vida que se divide en cuatro fases:
+          p Un producto es una mezcla de características tangibles, como el color del empaque, e intangibles, como los beneficios que le pueda dar el producto o servicio que el cliente o consumidor considera puede complacer su necesidad. 
+          p Los productos tienen un ciclo de vida que se divide en cuatro fases:
           ol.order-2.order-lg-1.lista-ol--cuadro.lista-ol--separador
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta(style="border-radius: 50%; font-size: 11px")
@@ -82,9 +79,9 @@
               p.mb-0.ps-2 <b>Evaluación y control:</b> en este punto se diseña la metodología por medio de la cual se medirá el desempeño de la fuerza de ventas.
         img.mx-auto.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 561px" alt="Imagen decorativa sobre los procesos de administración para ventas, formación, Aplicación, Evaluación y control") 
 
-    p.mb-5 Ahora bien, los factores que afectan las ventas son de carácter externo e interno:
+    p.mb-5(data-aos="fade-right") Ahora bien, los factores que afectan las ventas son de carácter externo e interno:
 
-    .tarjeta.p-4.mb-5(style="background-color: #E8EEFA")
+    .tarjeta.p-4.mb-5(style="background-color: #E8EEFA" data-aos="zoom-in")
       SlyderA.col-xl-11.mx-auto.py-4(tipo="b")
         .d-flex.flex-wrap
           .col-lg-6.pe-lg-4
@@ -97,13 +94,13 @@
             h3 Ambiente interno
             p.mb-4 Está completamente relacionado con factores y situaciones que se dan dentro de la empresa. Este ambiente está integrado por:
           img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-6.svg" style="max-width: 551px" alt="Imagen que muestra en forma circular los componentes del ambiente interno de la empresa: Metas, objetos y cultura. Capacidades tecnológicas, de investigación y desarrollo. Capacidad de servicio. Capacidad de producción. Recursos financieros. Recursos humanos.")
-    p.mb-5 Y hacen parte de las técnicas de venta, los métodos de ventas y las fases de la venta, como observaremos a continuación.
+    
+    p.mb-5(data-aos="fade-right") Y hacen parte de las técnicas de venta, los métodos de ventas y las fases de la venta, como observaremos a continuación.
 
-    h3 Métodos de venta
+    h3(data-aos="fade-left") Métodos de venta
+    p.mb-5(data-aos="fade-right") Tienen como propósito llegar al consumidor y dentro de estos se cuenta con:
 
-    p.mb-5 Tienen como propósito llegar al consumidor y dentro de estos se cuenta con:
-
-    ImagenInfografica.color-primario.mx-auto.col-lg-10.col-xl-6
+    ImagenInfografica.color-primario.mx-auto.col-lg-10.col-xl-6(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema3/img-7.svg' alt="Imagen que muestra los métodos de venta, los cuales se describen en la parte inferior de la imagen.")
@@ -127,19 +124,19 @@
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: top;"
     )
-      h3 Fases de la venta
-      p.mb-5 Para la realización de una buena venta se requiere del siguiente orden secuencial:
-      img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-8.svg" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
-      img.d-none.d-sm-flex.d-lg-none(src="@/assets/curso/temas/tema3/img-8-md.svg" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
-      img.mx-auto.d-flex.d-sm-none(src="@/assets/curso/temas/tema3/img-8-sm.svg" style="max-width: 255px" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
+      h3(data-aos="fade-right") Fases de la venta
+      p.mb-5(data-aos="fade-right") Para la realización de una buena venta se requiere del siguiente orden secuencial:
+      img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-8.svg" data-aos="fade-right" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
+      img.d-none.d-sm-flex.d-lg-none(src="@/assets/curso/temas/tema3/img-8-md.svg" data-aos="fade-right" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
+      img.mx-auto.d-flex.d-sm-none(src="@/assets/curso/temas/tema3/img-8-sm.svg" style="max-width: 255px" data-aos="fade-right" alt="Imagen sobre las fases de la venta, localización y calificación de los clientes, Acercamiento con el cliente, presentación del producto o servicio, cierre de venta")
 
-    h3 Los vendedores
-    p.mb-5 Un vendedor es quien tiene la experticia en la gestión comercial de la empresa para la que labora. Es quien se acerca al usuario y muy posiblemente lo convierte en cliente.
+    h3(data-aos="fade-left") Los vendedores
+    p.mb-5(data-aos="fade-right") Un vendedor es quien tiene la experticia en la gestión comercial de la empresa para la que labora. Es quien se acerca al usuario y muy posiblemente lo convierte en cliente.
 
     .d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5.p-4(style="background-color: #B6E5EB")
-      .col-lg-8.mb-4.my-lg-auto
+      .col-lg-8.mb-4.my-lg-auto(data-aos="fade-right")
         img.m-auto(src="@/assets/curso/temas/tema3/img-9.jpg" style="max-width: 715px" alt="Imagen decorativa")
-      .tarjeta.tarjeta-edit-5__1.p-4.col-lg-6
+      .tarjeta.tarjeta-edit-5__1.p-4.col-lg-6(data-aos="fade-left")
         p.mb-2 Algunas de las características que debe tener un buen vendedor son:
         ul.lista-ul--color.mb-2
           li.d-flex.align-items-start.mb-1
@@ -169,7 +166,7 @@
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
             p.mb-0.ps-2 Tolerancia a la frustración.
-          
+         
 
 </template>
 
