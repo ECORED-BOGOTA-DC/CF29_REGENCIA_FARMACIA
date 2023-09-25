@@ -80,7 +80,7 @@
 
     h3.mb-4(data-aos="fade-left") Investigación de mercados (IM)
     p(data-aos="fade-right") La investigación de mercados ha sido definida por varios exponentes, coincidiendo todos en un mismo objetivo: <span style="text-decoration: underline">la IM es el apoyo contundente de los directivos para la toma de decisiones.</span>
-    p(data-aos="fade-right") <b>American #[em Marketing] Association</b> define la investigación de mercados como:
+    p(data-aos="fade-right") <b>American Marketing Association</b> define la investigación de mercados como:
 
     .container-100.d-flex.flex-wrap.mb-5.align-items-center
       .col-lg-8.pe-lg-4

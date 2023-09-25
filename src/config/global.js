@@ -330,25 +330,25 @@ export default {
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollo fullstack',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -365,7 +365,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
