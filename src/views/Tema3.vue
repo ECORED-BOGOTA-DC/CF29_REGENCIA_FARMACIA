@@ -63,7 +63,7 @@
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Factores")
         .col-lg-6.pe-lg-4
           p.mb-4 Es importante tener en cuenta que hay diferentes factores externos e internos que intervienen en el comportamiento de compra de un cliente, como son:
-        img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 561px" alt="Imagen decorativa de la tabla dobre la información comercial")
+        img.mx-auto.col-lg-6.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 561px" alt="Tabla que muestra los factores externos e internos que intervienen en el comportamiento de compra de un cliente.")
       .py-3.py-md-4.d-flex.flex-wrap(titulo="Proceso de administración")
         .col-lg-6.order-2.order-lg-1.pe-lg-4
           p.mb-4 El fin de este proceso es establecer cada uno de los pasos que se deben seguir en un programa de ventas, los cuales son:
@@ -73,7 +73,7 @@
               p.mb-0.ps-2 <b>Formulación:</b> en este paso se tienen presente los factores del entorno que intervienen de manera positiva o negativa en la empresa y que permiten pronosticar los factibles resultados. En este paso es vital tener clara la planeación.
             li.d-flex.align-items-start
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
-              p.mb-0.ps-2 <b>Aplicación:</b> en esta fase se plantean las políticas y acciones que se ejecutaran para lograr los objetivos. Además, se escoge el personal de ventas competente teniendo presente los productos que se van a manejar y a las estrategias de mercadotecnia definidas.
+              p.mb-0.ps-2 <b>Aplicación:</b> en esta fase se plantean las políticas y acciones que se ejecutaran, para lograr los objetivos. Además, se escoge el personal de ventas competente teniendo presente los productos que se van a manejar y a las estrategias de mercadotecnia definidas.
             li.d-flex.align-items-start
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 <b>Evaluación y control:</b> en este punto se diseña la metodología por medio de la cual se medirá el desempeño de la fuerza de ventas.
@@ -138,7 +138,7 @@
         img.m-auto(src="@/assets/curso/temas/tema3/img-9.jpg" style="max-width: 715px" alt="Imagen decorativa")
       .tarjeta.tarjeta-edit-5__1.p-4.col-lg-6(data-aos="fade-left")
         p.mb-2 Algunas de las características que debe tener un buen vendedor son:
-        ul.lista-ul--color.mb-2
+        ul.lista-ul--color.ms-4.mb-2
           li.d-flex.align-items-start.mb-1
             img.pt-1(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 15px")
             p.mb-0.ps-2 Capacidad para relacionarse.

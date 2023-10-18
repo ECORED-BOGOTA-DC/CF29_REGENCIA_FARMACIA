@@ -7,7 +7,7 @@
         span 4
       h1 Manual de identidad corporativa
     
-    p.mb-5(data-aos="fade-right") Es un documento que recopila los elementos más importantes de una marca en particular y explica cómo se deben aplicar a nivel visual ya sea en línea (<em>online</em>) o fuera de línea (<em>offline</em>).
+    p.mb-5(data-aos="fade-right") Es un documento que recopila los elementos más importantes de una marca en particular y explica cómo se deben aplicar a nivel visual, ya sea en línea (<em>online</em>) o fuera de línea (<em>offline</em>).
 
     .mb-5.p-4.py-lg-5(style="background-color: #E4F2F8")
       .col-xl-11.d-flex.flex-wrap.mx-auto

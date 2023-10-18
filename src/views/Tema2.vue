@@ -54,32 +54,33 @@
     p(data-aos="fade-right") Dentro del mercadeo encontramos lo que se llama ambientes del mercadeo, que son el conjunto de fortalezas macro y micro que se localizan en el exterior de la empresa y que intervienen en la gestión gerencial al momento de fidelizar los clientes.
     p.mb-5(data-aos="fade-right") La siguiente tabla presenta cuáles son esas fortalezas.
 
-    .col-lg-10.col-xl-8.mx-auto.mb-5
+    .col-lg-10.col-xl-9.mx-auto.mb-5
       .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
         h5 Tabla 1.
         span Fortalezas para fidelizar los clientes
       
       .tabla-b.color-acento-contenido.mb-5
-        .tabla-b__header.d-flex
-          h4.col-6.mb-0 Macroambiente
-          h4.col-6.mb-0 Microambiente
         table
-          tr
-          tr(data-aos="fade-right")
-            td(style="border-right: 1px solid #AFAFAF") Demográficas: sexo, edad, etc.
-            td(rowspan="2" style="background-color: white;") Proveedores: empresas que surten a las otras empresas de bienes y servicios. Para que puedan ofrecer sus productos al mercado.
-          tr(data-aos="fade-right")
-            td(style="border-right: 1px solid #AFAFAF") Económicas: situación económica del mercado.
-          tr(data-aos="fade-right")
-            td(style="border-right: 1px solid #AFAFAF") Tecnológicas: avances científicos.
-            td(rowspan="2") Competidores: Organizaciones que ofrecen lo mismo.
-          tr(data-aos="fade-right")
-            td(style="border-right: 1px solid #AFAFAF") Naturales: clima, desastres, etc.
-          tr(data-aos="fade-right")
-            td(style="border-right: 1px solid #AFAFAF") Políticas gubernamentales.
-            td(rowspan="2" style="background-color: white;") Intermediarios: facilitadores del conocimiento con los consumidores y que estos puedan adquirir sus productos en los diferentes canales de distribución.
-          tr(data-aos="fade-right")
-            td(style="border-right: 1px solid #AFAFAF") Culturales: conducta de la población.
+          thead(style="border-color: transparent")
+            tr(data-aos="fade-right")
+              th(style="background-color: #15D3EC; width: 40%;").text-center Macroambiente
+              th(style="background-color: #15D3EC; width: 60%;").text-center Microambiente
+          tbody
+            tr(data-aos="fade-right")
+              td(style="border-right: 1px solid #AFAFAF") Demográficas: sexo, edad, etc.
+              td(rowspan="2" style="background-color: white;") Proveedores: empresas que surten a las otras empresas de bienes y servicios. Para que puedan ofrecer sus productos al mercado.
+            tr(data-aos="fade-right")
+              td(style="border-right: 1px solid #AFAFAF") Económicas: situación económica del mercado.
+            tr(data-aos="fade-right")
+              td(style="border-right: 1px solid #AFAFAF") Tecnológicas: avances científicos.
+              td(rowspan="2" style="background-color: #F6F6F6") Competidores: Organizaciones que ofrecen lo mismo.
+            tr(data-aos="fade-right")
+              td(style="border-right: 1px solid #AFAFAF") Naturales: clima, desastres, etc.
+            tr(data-aos="fade-right")
+              td(style="border-right: 1px solid #AFAFAF") Políticas gubernamentales.
+              td(rowspan="2" style="background-color: white;") Intermediarios: facilitadores del conocimiento con los consumidores y que estos puedan adquirir sus productos en los diferentes canales de distribución.
+            tr(data-aos="fade-right")
+              td(style="border-right: 1px solid #AFAFAF") Culturales: conducta de la población.
     
     h3.mb-5(data-aos="fade-left") <em>Merchadising</em>
     p.mb-5(data-aos="fade-right") El <em>merchandising</em> hace parte del mercadeo o <em>marketing</em> y engloba las técnicas comerciales por medio de las cuales se hace posible presentar al comprador el bien o el servicio en las condiciones materiales y psicológicas apropiadas.
@@ -160,7 +161,7 @@
         img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/p-6.svg" style="max-width: 131px" alt="Imagen decorativa")
         .col-12.col-md
           h4 Exhibición
-          p.text-md-right Los productos deben exhibirse de manera que llamen la atención pero que en ningún momento represente un peligro para el cliente.
+          p.text-md-right Los productos deben exhibirse de manera que llamen la atención, pero que en ningún momento represente un peligro para el cliente.
 
     p.mb-5(data-aos="fade-right") Ahora, un buen plan estratégico de <em>merchandising</em> permite el crecimiento comercial del establecimiento, debido a que permite la presentación propia del producto ante el cliente. El <em>merchandising</em> se sustenta en varias teorías, a continuación, se mencionan algunas de ellas:
 
@@ -210,7 +211,7 @@
 
     p(data-aos="fade-right") La aplicación de los cinco sentidos en el <em>merchandising</em> se denomina <em>neuromarketing</em>, concepto nuevo en el mercado que ofrece nuevas maneras de comunicación entre en comprador y el vendedor. 
     p(data-aos="fade-right") El <em>neuromarketing</em> se puede definir como un área de estudio interdisciplinaria en la que se aplican metodologías propiamente dichas de la neurociencia con el fin de identificar ante diferentes estímulos del <em>marketing</em> cual es la reacción del ser humano, permitiendo así mejorar las técnicas publicitarias y ayudando a entender la relación que existe entre la mente y la conducta del comprador.
-    p(data-aos="fade-right") Por medio de los cinco sentidos las personas pueden percibir los beneficios del producto trasladándolo a su subconsciente. 
+    p(data-aos="fade-right") Por medio de los cinco sentidos, las personas pueden percibir los beneficios del producto trasladándolo a su subconsciente. 
     p.mb-5(data-aos="fade-right") Esto se da de la siguiente forma:
 
     .container-100.mb-5.py-5(

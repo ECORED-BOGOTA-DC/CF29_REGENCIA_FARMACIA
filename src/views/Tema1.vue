@@ -13,7 +13,7 @@
     )
       .d-flex.flex-wrap.justify-content-center.align-items-center.col-lg-10.mx-auto
         .tarjeta.tarjeta-edit-1.p-4.col-lg-5.order-lg-1.order-2(data-aos="fade-right")
-          p.mb-2.py-lg-5 Es un proceso que se da cuando hay dos partes en la que una opera como comprador y la otra como vendedor ya sea de bienes o de servicios, originando el intercambio. Ante esto se podría decir que hay mercado cuando:
+          p.mb-2.py-lg-5 Es un proceso que se da cuando hay dos partes en la que una opera como comprador y la otra como vendedor, ya sea de bienes o de servicios, originando el intercambio. Ante esto se podría decir que hay mercado cuando:
         .col-lg-7.col-10.mb-4.my-lg-auto.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img.m-auto(src="@/assets/curso/temas/tema1/img-1.jpg" style="max-width: 820px" alt="Imagen decorativa")
     
@@ -79,7 +79,7 @@
             p.mb-0 En este mercado se intercambian materias primas, capital y trabajo. Los compradores o demandantes son las empresas que requieren de esto para poder elaborar los productos y los vendedores u oferentes son las personas o familias que los venden por dinero.
 
     h3.mb-4(data-aos="fade-left") Investigación de mercados (IM)
-    p(data-aos="fade-right") La investigación de mercados ha sido definida por varios exponentes, coincidiendo todos en un mismo objetivo: <span style="text-decoration: underline">la IM es el apoyo contundente de los directivos para la toma de decisiones.</span>
+    p(data-aos="fade-right") La investigación de mercados ha sido definida por varios exponentes, coincidiendo todos en un mismo objetivo: #[strong la IM es el apoyo contundente de los directivos para la toma de decisiones.]
     p(data-aos="fade-right") <b>American Marketing Association</b> define la investigación de mercados como:
 
     .container-100.d-flex.flex-wrap.mb-5.align-items-center
@@ -134,7 +134,7 @@
           .h5.mb-2 3. Recolección de datos.
           p.mb-0 Se emplean dos tipos de datos.
         .tarjeta.p-3(x="20%" y="50%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
-          p.mb-0 <b>Datos primarios:</b> se recogen directamente de la fuente original
+          p.mb-0 <b>Datos primarios:</b> se recogen directamente de la fuente original.
         .tarjeta.p-3(x="64%" y="50%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")
           p.mb-0 <b>Datos secundarios:</b> se obtuvieron antes para otra idea o pueden haberse originado de varias fuentes como entidades gubernamentales o investigadores académicos, entre otras.
         .tarjeta.p-3(x="39%" y="66%" numero="+" style="background-color: #DDD3FF; border-radius: 3px;")

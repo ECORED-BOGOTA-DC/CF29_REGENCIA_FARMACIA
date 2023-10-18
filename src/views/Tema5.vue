@@ -24,7 +24,7 @@
       .bloque-texto-g__img(style="background-color: #E8E8E8")
       img.position-relative.mx-auto.ms-lg-0.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 156px;" alt="Imagen decorativa")
       .bloque-texto-g__texto.p-4.ms-lg-4
-        p.mb-0 Los titulares del registro serán responsables de cualquier transgresión en el contenido de los materiales de promoción y publicidad, y de las consecuencias que lo pueda generar en la salud individual o colectiva.  Será función del Invima velar por el cumplimiento de lo aquí previsto, teniendo en cuenta la reglamentación que para el efecto expida el Ministerio de Salud.
+        p.mb-0 Los titulares del registro serán responsables de cualquier transgresión en el contenido de los materiales de promoción y publicidad, y de las consecuencias que lo pueda generar en la salud individual o colectiva.  Será función del INVIMA velar por el cumplimiento de lo aquí previsto, teniendo en cuenta la reglamentación que para el efecto expida el Ministerio de Salud.
     
     p.mb-5 Precisando en los siguientes parágrafos:
 
@@ -71,7 +71,7 @@ export default {
       {
         titulo: 'Decreto 677 de 1995',
         texto:
-          'En el titulo IV, denominado de los envases, etiquetas, rótulos, empaques, nombres y publicidad y puntualmente en el <b>artículo 79</b>, habla de la información y publicidad de los medicamentos. Artículo 79. De la información y publicidad de los medicamentos. Toda información científica, promocional o publicitaria sobre los medicamentos deberá ser realizada con arreglo a las condiciones del registro sanitario y a las normas técnicas y legales previstas en el presente Decreto.',
+          'En el título IV, denominado de los envases, etiquetas, rótulos, empaques, nombres y publicidad y puntualmente en el <b>artículo 79</b>, habla de la información y publicidad de los medicamentos. Artículo 79. De la información y publicidad de los medicamentos. Toda información científica, promocional o publicitaria sobre los medicamentos deberá ser realizada con arreglo a las condiciones del registro sanitario y a las normas técnicas y legales previstas en el presente Decreto.',
         icono: require('@/assets/curso/temas/tema5/img-5.svg'),
       },
     ],

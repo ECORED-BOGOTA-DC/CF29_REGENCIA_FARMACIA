@@ -131,14 +131,6 @@ export default {
     {
       tema: 'Ventas',
       referencia:
-        'Palomares, R., (2011). Merchandising -Teoría, práctica y estrategia.',
-      tipo: 'PDF',
-      link:
-        'https://corladancash.com/wp-content/uploads/2019/08/53-Merchandising_-Teoria-practica-Ricardo-Palomares-Borja.pdf',
-    },
-    {
-      tema: 'Ventas',
-      referencia:
         'Arturo, K. (2015). Cómo hacer una encuesta paso a paso. Crece Negocios.',
       tipo: 'Página Web',
       link: 'http://www.crecenegocios.com/como-hacer-una-encuesta-paso-a-paso/',
@@ -243,12 +235,10 @@ export default {
         'GestioPolis.com Experto. (2021, mayo 11). Investigación de mercados. Qué es, importancia, tipos, beneficios.',
       link: 'https://www.gestiopolis.com/que-es-la-investigacion-de-mercados/',
     },
-    // {
-    //   referencia:
-    //     'Palomares, R., (2011). <em>Merchandising</em> -Teoría, práctica y estrategia.',
-    //   link:
-    //     'https://corladancash.com/wp-content/uploads/2019/08/53-Merchandising_-Teoria-practica-Ricardo-Palomares-Borja.pdf',
-    // },
+    {
+      referencia:
+        'Palomares, R., (2011). <em>Merchandising</em> -Teoría, práctica y estrategia.',
+    },
     {
       referencia: 'Prieto, J.E., (2009). Investigación de mercados.',
       link:
