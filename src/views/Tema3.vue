@@ -73,7 +73,7 @@
               p.mb-0.ps-2 <b>Formulación:</b> en este paso se tienen presente los factores del entorno que intervienen de manera positiva o negativa en la empresa y que permiten pronosticar los factibles resultados. En este paso es vital tener clara la planeación.
             li.d-flex.align-items-start
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
-              p.mb-0.ps-2 <b>Aplicación:</b> en esta fase se plantean las políticas y acciones que se ejecutaran, para lograr los objetivos. Además, se escoge el personal de ventas competente teniendo presente los productos que se van a manejar y a las estrategias de mercadotecnia definidas.
+              p.mb-0.ps-2 <b>Aplicación:</b> en esta fase se plantean las políticas y acciones que se ejecutarán, para lograr los objetivos. Además, se escoge el personal de ventas competente teniendo presente los productos que se van a manejar y a las estrategias de mercadotecnia definidas.
             li.d-flex.align-items-start
               img.pt-1(src="@/assets/curso/temas/tema2/img-5.svg" style="max-width: 15px")
               p.mb-0.ps-2 <b>Evaluación y control:</b> en este punto se diseña la metodología por medio de la cual se medirá el desempeño de la fuerza de ventas.
